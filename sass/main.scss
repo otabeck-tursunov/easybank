@@ -332,4 +332,92 @@ footer {
             margin-bottom: 32px;
         }
     }
+
+    .why {
+        text-align: center;
+        padding: 64px 24px;
+
+        h2 {
+            max-width: 316px;
+            margin: 0 auto;
+            font-size: 32px;
+            line-height: 37.6px;
+            letter-spacing: -0.57px;
+            margin-bottom: 14px;
+        }
+
+        p {
+            width: auto;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.23px;
+            margin-bottom: 56px;
+        }
+
+        .block {
+            flex-direction: column;
+            gap: 32px;
+
+            div {
+                width: auto;
+            }
+        }
+    }
+
+    .articles {
+        padding: 80px 24px;
+
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            line-height: 37.6px;
+            letter-spacing: -0.57px;
+            margin-bottom: 31px;
+        }
+
+        .block {
+            flex-direction: column;
+            gap: 24px;
+
+            .box {
+                width: auto;
+                border-radius: 5px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer .container {
+        padding: 0 24px;
+        flex-direction: column;
+        text-align: center;
+
+        .left,
+        .right {
+            margin: 0 auto;
+            width: auto;
+            flex-direction: column;
+        }
+
+        .left > ul {
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .logo {
+            margin-bottom: 32px;
+            ul {
+                margin-top: 32px;
+            }
+        }
+
+        .button {
+            margin: 0 auto;
+            margin-top: 32px;
+            margin-bottom: 24px;
+        }
+    }
 }

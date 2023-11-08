@@ -281,4 +281,77 @@ footer .right a {
     color: #9597A5;
     margin-bottom: 32px;
   }
+  .why {
+    text-align: center;
+    padding: 64px 24px;
+  }
+  .why h2 {
+    max-width: 316px;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 37.6px;
+    letter-spacing: -0.57px;
+    margin-bottom: 14px;
+  }
+  .why p {
+    width: auto;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.23px;
+    margin-bottom: 56px;
+  }
+  .why .block {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .why .block div {
+    width: auto;
+  }
+  .articles {
+    padding: 80px 24px;
+  }
+  .articles h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 37.6px;
+    letter-spacing: -0.57px;
+    margin-bottom: 31px;
+  }
+  .articles .block {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .articles .block .box {
+    width: auto;
+    border-radius: 5px;
+  }
+  .articles .block .box img {
+    width: 100%;
+  }
+  footer .container {
+    padding: 0 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .container .left,
+  footer .container .right {
+    margin: 0 auto;
+    width: auto;
+    flex-direction: column;
+  }
+  footer .container .left > ul {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  footer .container .logo {
+    margin-bottom: 32px;
+  }
+  footer .container .logo ul {
+    margin-top: 32px;
+  }
+  footer .container .button {
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
 }/*# sourceMappingURL=main.css.map */
