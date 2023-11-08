@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 1110px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
@@ -236,4 +236,49 @@ footer .right a {
   color: #9597A5;
   text-decoration: none;
   transition: all 0.5s ease;
+}
+
+.nav-mobile,
+.hero-mobile {
+  display: none;
+}
+
+@media (max-width: 476px) {
+  .nav-desktop,
+  .hero {
+    display: none;
+  }
+  .nav-mobile,
+  .hero-mobile {
+    display: block;
+  }
+  .nav-mobile {
+    padding: 16px;
+  }
+  .hero-mobile {
+    background: #FAFAFA;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  .hero-mobile img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .hero-mobile h1 {
+    padding: 0 24px;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.71px;
+    color: #2D314D;
+    margin-bottom: 16px;
+  }
+  .hero-mobile p {
+    padding: 0 24px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.23px;
+    color: #9597A5;
+    margin-bottom: 32px;
+  }
 }/*# sourceMappingURL=main.css.map */
